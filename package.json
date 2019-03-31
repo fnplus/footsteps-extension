@@ -1,0 +1,14 @@
+{
+  "name": "footsteps",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "arjunmahishi",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "browserify": "^16.2.3"
+  },
+  "scripts": {
+    "build": "./build.sh"
+  }
+}
