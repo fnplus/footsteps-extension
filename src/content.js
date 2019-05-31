@@ -1,5 +1,6 @@
-const test = require("./lib/test")
+const contentHelper = require("./lib/content/helpers")
+const parsers = require("./lib/content/parser")
 
-console.log("Hello world")
+console.log(contentHelper.getSiteName())
 
-test.fn()
+console.log(new parsers.SOFParser().parse())
