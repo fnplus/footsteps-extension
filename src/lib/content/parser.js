@@ -1,28 +1,35 @@
 class Parser {
     parse() {
         return {
-            title: getTitle(),
-            content: getContent()
+            topic: this.getTopic(),
+            content: this.getContent(),
+            link: this.getLink(),
         }
     }
-
-    getTitle() {
-
-    }
-
-    getContent() {
-
-    }
+    getTopic() {}
+    getContent() {}
+    getLink() {}
 }
 
 class SOFParser extends Parser {
-    getTitle() {
-        return "title"
+    getTopic() {
+        return "sof-title"
     }
 
     getContent() {
-        return "content"
+        return "sof-content"
+    }
+}
+
+class GoogleParser extends Parser {
+    getTopic() {
+        return "google-title"
+    }
+
+    getContent() {
+        return "google-content"
     }
 }
 
 exports.SOFParser = SOFParser
+exports.GoogleParser = GoogleParser
