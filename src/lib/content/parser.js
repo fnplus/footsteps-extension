@@ -23,11 +23,10 @@ class SOFParser extends Parser {
 
 class GoogleParser extends Parser {
     getTopic() {
-        return "google-title"
+        return document.title.split(" - ")[0];
     }
-
-    getContent() {
-        return "google-content"
+    getLink() {
+        return document.URL;
     }
 }
 
