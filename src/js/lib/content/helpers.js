@@ -1,4 +1,4 @@
-exports.getSiteName = () => {
+export function getSiteName () {
     switch(window.location.hostname) {
         case "www.google.com": return "google"
         case "www.google.co.in": return "google"

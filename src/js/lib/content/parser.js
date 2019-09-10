@@ -12,23 +12,13 @@ class Parser {
 }
 
 class SOFParser extends Parser {
-    getTopic() {
-        return "sof-title"
-    }
-
-    getContent() {
-        return "sof-content"
-    }
 }
 
 class GoogleParser extends Parser {
-    getTopic() {
-        return document.title.split(" - ")[0];
-    }
-    getLink() {
-        return document.URL;
-    }
+    getTopic() { return document.title.split(" - ")[0] } 
+    getLink () { return document.URL }
 }
 
-exports.SOFParser = SOFParser
-exports.GoogleParser = GoogleParser
+export function NewParser() {
+    
+}
