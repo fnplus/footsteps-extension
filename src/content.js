@@ -1,6 +1,5 @@
-const contentHelper = require("./lib/content/helpers")
-const parsers = require("./lib/content/parser")
+var parsers = require('./lib/content/parser')
 
-console.log(contentHelper.getSiteName())
+var parser = parsers.NewParser()
 
-console.log(new parsers.SOFParser().parse())
+console.log(parser.getTitle(), parser.getLink())

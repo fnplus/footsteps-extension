@@ -1,28 +1,21 @@
 class Parser {
     parse() {
         return {
-            title: getTitle(),
-            content: getContent()
+            title: this.getTitle(),
+            content: this.getLink()
         }
     }
+    getTitle() {}
+    getLink() {}
+}
 
+class GenericParser extends Parser {
     getTitle() {
-
+        return document.title;
     }
-
-    getContent() {
-
+    getLink() {
+        return document.location.href;
     }
 }
 
-class SOFParser extends Parser {
-    getTitle() {
-        return "title"
-    }
-
-    getContent() {
-        return "content"
-    }
-}
-
-exports.SOFParser = SOFParser
+exports.NewParser = () => new GenericParser();
