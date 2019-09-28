@@ -51,6 +51,9 @@
 .logo{
     height: 4rem;
 }
+.path-selector{
+    display: none;
+}
 footer{
     margin-top: 2rem;
     padding-bottom: 60px;
