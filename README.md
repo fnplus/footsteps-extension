@@ -1,6 +1,7 @@
 # Footsteps
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Ffnplus%2Fproject-footsteps-chrome.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Ffnplus%2Fproject-footsteps-chrome?ref=badge_shield)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/d4e157de374b4db4a5277592bd6f4d7e)](https://www.codacy.com/manual/fnplus/footsteps-extension?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=fnplus/footsteps-extension&amp;utm_campaign=Badge_Grade)
+[![CodeFactor](https://www.codefactor.io/repository/github/fnplus/footsteps-extension/badge)](https://www.codefactor.io/repository/github/fnplus/footsteps-extension)
 
 The chrome extension that let's you track your learning footsteps and also inspire others to follow them
 
