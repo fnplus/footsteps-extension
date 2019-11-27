@@ -7,7 +7,7 @@ const filesToBundle = [
     ['src/background.js', 'background-script.js'],
 ];
 
-const directoriesToCopy = ['src/popup/', 'public']
+const directoriesToCopy = ['src/auth', 'src/popup/', 'public']
 
 const bundle = ([fileIn, fileOut]) => {
     browserify().add(fileIn).bundle().pipe(fs.createWriteStream(`${buildDirectory}/${fileOut}`))

@@ -1,7 +1,7 @@
 {
   "name": "Footsteps",
-  "version": "2.0",
-  "description": "Track how you ended up learning something and let others follow your footsteps",
+  "version": "1.0",
+  "description": "and let others follow your footsteps",
   "manifest_version": 2,
   "background": {
     "scripts": [
