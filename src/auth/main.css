@@ -21,11 +21,11 @@ html, body {
   .mdl-layout__header-row {
     padding: 0;
   }
-  .quickstart-user-details-container {
+  .user-details-container {
     margin-top: 20px;
     line-height: 25px;
   }
-  #quickstart-sign-in-status {
+  #sign-in-status {
     font-weight: bold;
   }
   pre {
@@ -37,7 +37,7 @@ html, body {
     word-break: break-all;
   }
   h3 {
-    background: url('firebase-logo.png') no-repeat;
+    background: url('fn-logo.png') no-repeat;
     background-size: 40px;
     padding-left: 50px;
     line-height: 40px;

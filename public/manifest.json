@@ -23,7 +23,7 @@
   "browser_action": {
     "default_icon": "icon.png",
     "default_title": "Footsteps",
-    "default_popup": "credentials.html"
+    "default_popup": "auth.html"
   },
   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAlYYAiO9QEDcWW+LTz8SCyZ93mFALZ97gkgmWY36y6/dCtIzacLkFmYbZ/vgD9+TQgtmMgZsuHtGwp5dDMGbjMIa3yKEuy0YYeJ4aTpeQesjQL7/f7Jx1x8iXjVbj/GdFhuExOVSIANbWt+HD3+252D/0QVysDBmz9Zko1RMM4ptDfT1fQCo4Y/OllZbHo52KU+DieCkFKIvfGTy4j4rQn1RUGZ7JMTYj9hGCvzH0wPlRyMsFHDxeEIqQuQGDoahfoGFlI/KQpeBcI25Fr0Y2k1LE+JH5qUWpKcwBH4rJrdvjaepjGSg8Y5o/tunV9Oyx1+gLKLLIKqIQUNtPG+eViwIDAQAB",
   "oauth2": {

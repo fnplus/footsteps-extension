@@ -35,23 +35,27 @@ var config = {
         var uid = user.uid;
         var providerData = user.providerData;
         // [START_EXCLUDE]
-        document.getElementById('quickstart-button').textContent = 'Sign out';
-        document.getElementById('quickstart-sign-in-status').textContent = 'Signed in';
-        document.getElementById('quickstart-account-details').textContent = JSON.stringify(user, null, '  ');
+        document.getElementById('sign-in-button').textContent = 'Sign out';
+        document.getElementById('sign-in-status').textContent = 'Signed in';
+        
+        // chrome.storage.local.set({logged_in: true});
+        chrome.browserAction.setPopup({popup: "popup.html"});
         // [END_EXCLUDE]
       } else {
         // Let's try to get a Google auth token programmatically.
         // [START_EXCLUDE]
-        document.getElementById('quickstart-button').textContent = 'Sign-in with Google';
-        document.getElementById('quickstart-sign-in-status').textContent = 'Signed out';
-        document.getElementById('quickstart-account-details').textContent = 'null';
+        document.getElementById('sign-in-button').textContent = 'Sign-in with Google';
+        document.getElementById('sign-in-status').textContent = 'Signed out';
+
+        // chrome.storage.local.set({logged_in: false});
+        chrome.browserAction.setPopup({popup: "auth.html"});
         // [END_EXCLUDE]
       }
-      document.getElementById('quickstart-button').disabled = false;
+      document.getElementById('sign-in-button').disabled = false;
     });
     // [END authstatelistener]
   
-    document.getElementById('quickstart-button').addEventListener('click', startSignIn, false);
+    document.getElementById('sign-in-button').addEventListener('click', startSignIn, false);
   }
   
   /**
@@ -86,7 +90,7 @@ var config = {
    * Starts the sign-in process.
    */
   function startSignIn() {
-    document.getElementById('quickstart-button').disabled = true;
+    document.getElementById('sign-in-button').disabled = true;
     if (firebase.auth().currentUser) {
       firebase.auth().signOut();
     } else {
