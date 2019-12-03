@@ -4,6 +4,28 @@ const EXISTING_PATH_SELECTOR_ID = "existing-path-selector"
 const NEW_PATH_INPUT_ID = "new-path-input"
 const PATH_SELECTOR_IDS = [EXISTING_PATH_SELECTOR_ID, NEW_PATH_INPUT_ID]
 
+chrome.runtime.onMessage.addListener(function(request, sender) {
+    if (request.action == "getTitle") {
+      message.innerHTML = request.source;
+    }
+  });
+
+  function onWindowLoad() {
+
+    var message = document.getElementById('message');
+  
+    chrome.tabs.executeScript(null, {
+      file: "content.js"
+    }, function() {
+      // If you try and inject into an extensions page or the webstore/NTP you'll get an error
+      if (chrome.runtime.lastError) {
+        message.innerText = 'There was an error injecting script : \n' + chrome.runtime.lastError.message;
+      }
+    });
+  
+  }
+
+
 const radioHandler = (e) => {
     switch(e.target.id) {
         case EXISTING_PATH_RADIO_ID: showPathSelector(EXISTING_PATH_SELECTOR_ID); return
@@ -25,3 +47,5 @@ const showPathSelector = (selectorID) => {
 
 document.getElementById(EXISTING_PATH_RADIO_ID).addEventListener("change", radioHandler)
 document.getElementById(NEW_PATH_RADIO_ID).addEventListener("change", radioHandler)
+window.onload=onWindowLoad;
+document.onload=onWindowLoad;
