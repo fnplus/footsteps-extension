@@ -4,7 +4,7 @@ const EXISTING_PATH_SELECTOR_ID = "existing-path-selector"
 const NEW_PATH_INPUT_ID = "new-path-input"
 const PATH_SELECTOR_IDS = [EXISTING_PATH_SELECTOR_ID, NEW_PATH_INPUT_ID]
 
-chrome.runtime.onMessage.addListener(function(request, sender) {
+chrome.runtime.onMessage.addListener(function(request) {
     if (request.action == "getTitle") {
       message.innerHTML = request.source;
     }
