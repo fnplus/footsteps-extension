@@ -21,9 +21,17 @@ var config = {
    *
    * When signed in, we also authenticate to the Firebase Realtime Database.
    */
+
+   var body=document.querySelector('body');
+   body.onload=function(){
+     var meta=document.querySelector('meta');
+     console.log(meta);
+   }
   function initApp() {
     // Listen for auth state changes.
     // [START authstatelistener]
+    var doc= document.querySelector('meta');
+    console.log(doc);
     firebase.auth().onAuthStateChanged(function(user) {
       if (user) {
         // User is signed in.
@@ -38,7 +46,7 @@ var config = {
         document.getElementById('sign-in-button').textContent = 'Sign out';
         document.getElementById('sign-in-status').textContent = 'Signed in';
         
-        // chrome.storage.local.set({logged_in: true});
+        //chrome.storage.local.set({loggedIn: true});
         chrome.browserAction.setPopup({popup: "popup.html"});
         // [END_EXCLUDE]
       } else {
@@ -47,7 +55,7 @@ var config = {
         document.getElementById('sign-in-button').textContent = 'Sign-in with Google';
         document.getElementById('sign-in-status').textContent = 'Signed out';
 
-        // chrome.storage.local.set({logged_in: false});
+         //chrome.storage.local.set({logged_in: false});
         chrome.browserAction.setPopup({popup: "auth.html"});
         // [END_EXCLUDE]
       }
