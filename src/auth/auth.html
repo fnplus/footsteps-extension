@@ -1,22 +1,23 @@
 <html>
-<head>
-  <meta charset=utf-8 />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Google Sign In</title>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Google Sign In</title>
 
-  <link rel="stylesheet" href="main.css">
-  
-  <script src="https://www.gstatic.com/firebasejs/7.5.0/firebase.js"></script>
-  <script src="auth.js"></script>
-</head>
-<body>
-  <h3>Firebase Authentication</h3>
+    <link rel="stylesheet" href="main.css" />
 
-  <div class="user-details-container">
-    <button id="sign-in-button">Sign-in with Google</button>
-    <p>
-      Firebase sign-in status: <span id="sign-in-status">Unknown</span>
-    </p>
-  </div>
-</body>
+    <script src="https://www.gstatic.com/firebasejs/7.5.0/firebase.js"></script>
+    <script src="auth.js"></script>
+  </head>
+  <body>
+    <h3>Firebase Authentication</h3>
+
+    <div class="user-details-container">
+      <button id="sign-in-button">Sign-in with Google</button>
+      <p>Firebase sign-in status: <span id="sign-in-status">Unknown</span></p>
+    </div>
+
+    <div id="message"></div>
+    <script src="popup.js"></script>
+  </body>
 </html>
