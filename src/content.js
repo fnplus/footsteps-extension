@@ -1,6 +1,5 @@
 window.onload = () => {
-  var title = document.querySelector("title").text;
-  console.log(title.text);
+  var title = document.title;
   const metas = document.getElementsByTagName("meta");
   var data = "";
   for (let i = 0; i < metas.length; i++) {
@@ -14,6 +13,9 @@ window.onload = () => {
   }
   chrome.runtime.sendMessage({
     action: "getTitle",
-    source: `<h1> ${title} - ${data} </h1>`
+    source: {
+      title: title,
+      description: data
+    }
   });
 };
