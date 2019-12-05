@@ -8,12 +8,11 @@ chrome.runtime.onMessage.addListener(function(request) {
   if (request.action == "getTitle") {
     // This is where you get the JSON
     var content = request.source;
+    console.log(content);
   }
 });
 
 function onWindowLoad() {
-  var message = document.getElementById("message");
-
   chrome.tabs.executeScript(
     null,
     {
