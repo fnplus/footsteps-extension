@@ -1,5 +1,5 @@
 window.onload = () => {
-  var title = document.title;
+  var title=document.querySelector('title').text;
   const metas = document.getElementsByTagName("meta");
   var data = "";
   for (let i = 0; i < metas.length; i++) {
