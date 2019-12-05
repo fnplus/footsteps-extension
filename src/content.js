@@ -7,9 +7,12 @@ window.onload = () => {
       metas[i].getAttribute("name") === "description" ||
       metas[i].getAttribute("name") === "summary"
     ) {
-      console.log(metas[i].getAttribute("content"));
+      
       data += metas[i].getAttribute("content");
     }
+    // Debug message
+    console.log(title +'' + data);
+
   }
   chrome.runtime.sendMessage({
     action: "getTitle",
