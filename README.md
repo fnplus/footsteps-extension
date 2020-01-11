@@ -1,4 +1,4 @@
-# 👣Footsteps
+# 👣Footsteps Extension
 A search 🔎engine for community-made 🧑‍🤝‍🧑learning resources for the 21st-century learner.👨‍💻👩‍💻Learn by following the footsteps (resources) of experts or make your own, giving others the right advice/resources to learn.
 
 This chrome extension let's you track your learning footsteps and also inspire others to follow them. This app complements [footsteps-app](https://github.com/fnplus/footsteps-app)
