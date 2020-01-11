@@ -1,12 +1,9 @@
-# 👣Footsteps Extension
-A search 🔎engine for community-made 🧑‍🤝‍🧑learning resources for the 21st-century learner.👨‍💻👩‍💻Learn by following the footsteps (resources) of experts or make your own, giving others the right advice/resources to learn.
-
-This chrome extension let's you track your learning footsteps and also inspire others to follow them. This app complements [footsteps-app](https://github.com/fnplus/footsteps-app)
+# 👣 Footsteps Extension
+A search 🔎engine for community-made 🧑‍🤝‍🧑learning resources for the 21st-century learner.👨‍💻👩‍💻Learn by following the footsteps (resources) of experts or make your own, giving others the right advice/resources to learn. This chrome extension let's you track your learning footsteps and also inspire others to follow them. This app complements [footsteps-app](https://github.com/fnplus/footsteps-app)
 
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Ffnplus%2Fproject-footsteps-chrome.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Ffnplus%2Fproject-footsteps-chrome?ref=badge_shield)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/d4e157de374b4db4a5277592bd6f4d7e)](https://www.codacy.com/manual/fnplus/footsteps-extension?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=fnplus/footsteps-extension&amp;utm_campaign=Badge_Grade)
 [![CodeFactor](https://www.codefactor.io/repository/github/fnplus/footsteps-extension/badge)](https://www.codefactor.io/repository/github/fnplus/footsteps-extension)
-
 
 ## 🤷 About
 We envisioned the project to solve the problems faced by 21st-century learners. A modern learner finds a flood of resources from Google Search but doesn't always find the right resources since it's the website with the best SEO (search engine optimisation) that wins. There are so many free resources available on the internet made by experts in their field and yet we pay for outdated courses promoted by big companies and universities.
@@ -19,7 +16,7 @@ Here are few examples of why we came up with footsteps:
 
 [**Reddit thread - "About IBMs Data Science Certification"**](https://www.reddit.com/r/datascience/comments/eleuz9/about_ibms_data_science_certification/)
 
-## 🚀Steps to setup development environment
+## 🚀 Steps to setup development environment
 
 - Install node, yarn/npm
 - Clone the repo 
@@ -45,7 +42,7 @@ Here are few examples of why we came up with footsteps:
     ```
     and load the `/build` folder in `chrome://extensions/` on chrome (Load unpacked)
 
-## Developing guidelines
+## 💻 Developing guidelines
 
 - Put all the code in one of the existing files in `/src`. If you add a new file, make a relavent modification to `build.js`
 - If you want to modularize the code, use the `/src/lib` folder. Put all the modules there and `require()` them from `/src`. This will not need any modification to the `build.js` file.
@@ -53,4 +50,4 @@ Here are few examples of why we came up with footsteps:
 - Write kick-ass, readable and clean code.
 
 ## :memo: License
-[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Ffnplus%2Fproject-footsteps-chrome.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Ffnplus%2Fproject-footsteps-chrome?ref=badge_large)
+Licensed under the [GPL v3 License](./LICENSE).
