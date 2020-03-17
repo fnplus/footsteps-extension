@@ -23,7 +23,7 @@ Here are few examples of why we came up with footsteps:
 1.   **Install node**
    
 2.   **Clone the repo** 
-
+   
     ```bash
     git clone github.com/fnplus/footsteps-extension.git
     ```
