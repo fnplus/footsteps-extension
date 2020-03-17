@@ -24,11 +24,13 @@ Here are few examples of why we came up with footsteps:
 1. **Install node**
    
 2. **Clone the repo** 
+
     ```bash
     git clone github.com/fnplus/footsteps-extension.git
     ```
 
 3. **Install dependencies**
+
     ```bash
     npm install
     ```
@@ -38,6 +40,7 @@ Here are few examples of why we came up with footsteps:
     ```
     
 4. **To build you code and add the extention to your chrome, run:**
+
     ```bash
     npm run build
     ```
@@ -46,17 +49,19 @@ Here are few examples of why we came up with footsteps:
     yarn run build
     ```
  
- 5. **Load the `/build` folder in `chrome://extensions/` on chrome (Load unpacked)**
+5. **Load the `/build` folder in `chrome://extensions/` on chrome (Load unpacked)**
 
 ## 💻 Development guidelines
 
-1. Put all the code in one of the existing files in `/src`. If you add a new file, make a relavent modification to `build.js`
+1. Put all the code in one of the existing files in `/src`. If you add a new file, make a relavent modification to `build.js`.
+
 2. If you want to modularize the code, use the `/src/lib` folder. Put all the modules there and `require()` them from `/src`. This will not need any modification to the `build.js` file.
+
 3. Push all the code to your own branch. Once you are sure its working, merge it with `dev` branch. Let's maintain only the stable and released versions on the `master` branch.
+
 4. Write kick-ass, readable and clean code.
 
 ## :memo: License
 Licensed under the [GPL v3 License](./LICENSE).
 
 ## :heart: Thanks
-
