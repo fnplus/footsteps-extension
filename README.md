@@ -20,35 +20,32 @@ Here are few examples of why we came up with footsteps:
 
 ## 🚀 Steps to setup development environment
 
-1.   **Install node**
-   
-2.   **Clone the repo** 
-   
-    ```bash
-    git clone github.com/fnplus/footsteps-extension.git
-    ```
-
-3.   **Install dependencies**
-
-    ```bash
-    npm install
-    ```
-    or 
-    ```bash
-    yarn install
-    ```
-    
-4.   **To build you code and add the extention to your chrome, run:**
-
-    ```bash
-    npm run build
-    ```
-    or
-    ```bash
-    yarn run build
-    ```
+ 1.   **Install node**
  
-5.   **Load the `/build` folder in `chrome://extensions/` on chrome (Load unpacked)**
+   
+ 2.   **Clone the repo** 
+ 
+   ```bash
+   git clone github.com/fnplus/footsteps-extension.git
+   ```
+
+ 3.   **Install dependencies**
+
+   ```bash
+    npm install
+    or
+    yarn install
+   ```
+    
+ 4.   **To build you code and add the extention to your chrome, run:**
+ 
+   ```bash
+    npm run build
+    or
+    yarn run build
+   ```
+ 
+ 5.   **Load the `/build` folder in `chrome://extensions/` on chrome (Load unpacked)**
 
 ## 💻 Development guidelines
 
