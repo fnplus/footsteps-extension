@@ -3,7 +3,6 @@ A search 🔎engine for community-made 🧑‍🤝‍🧑learning resources for 
 
 This app complements [footsteps-app](https://github.com/fnplus/footsteps-app) . The browser extension for Footsteps App helps you to quickly save your learning footsteps with a click of a button.
 
-
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Ffnplus%2Fproject-footsteps-chrome.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Ffnplus%2Fproject-footsteps-chrome?ref=badge_shield)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/d4e157de374b4db4a5277592bd6f4d7e)](https://www.codacy.com/manual/fnplus/footsteps-extension?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=fnplus/footsteps-extension&amp;utm_campaign=Badge_Grade)
 [![CodeFactor](https://www.codefactor.io/repository/github/fnplus/footsteps-extension/badge)](https://www.codefactor.io/repository/github/fnplus/footsteps-extension)
@@ -21,15 +20,15 @@ Here are few examples of why we came up with footsteps:
 
 ## 🚀 Steps to setup development environment
 
-1. **Install node**
+1.   **Install node**
    
-2. **Clone the repo** 
+2.   **Clone the repo** 
 
     ```bash
     git clone github.com/fnplus/footsteps-extension.git
     ```
 
-3. **Install dependencies**
+3.   **Install dependencies**
 
     ```bash
     npm install
@@ -39,7 +38,7 @@ Here are few examples of why we came up with footsteps:
     yarn install
     ```
     
-4. **To build you code and add the extention to your chrome, run:**
+4.   **To build you code and add the extention to your chrome, run:**
 
     ```bash
     npm run build
@@ -49,17 +48,17 @@ Here are few examples of why we came up with footsteps:
     yarn run build
     ```
  
-5. **Load the `/build` folder in `chrome://extensions/` on chrome (Load unpacked)**
+5.   **Load the `/build` folder in `chrome://extensions/` on chrome (Load unpacked)**
 
 ## 💻 Development guidelines
 
-1. Put all the code in one of the existing files in `/src`. If you add a new file, make a relavent modification to `build.js`.
+1.   Put all the code in one of the existing files in `/src`. If you add a new file, make a relavent modification to `build.js`.
 
-2. If you want to modularize the code, use the `/src/lib` folder. Put all the modules there and `require()` them from `/src`. This will not need any modification to the `build.js` file.
+2.   If you want to modularize the code, use the `/src/lib` folder. Put all the modules there and `require()` them from `/src`. This will not need any modification to the `build.js` file.
 
-3. Push all the code to your own branch. Once you are sure its working, merge it with `dev` branch. Let's maintain only the stable and released versions on the `master` branch.
+3.   Push all the code to your own branch. Once you are sure its working, merge it with `dev` branch. Let's maintain only the stable and released versions on the `master` branch.
 
-4. Write kick-ass, readable and clean code.
+4.   Write kick-ass, readable and clean code.
 
 ## :memo: License
 Licensed under the [GPL v3 License](./LICENSE).
