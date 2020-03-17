@@ -18,48 +18,44 @@ Here are few examples of why we came up with footsteps:
 [**Reddit thread - "About IBMs Data Science Certification"**](https://www.reddit.com/r/datascience/comments/eleuz9/about_ibms_data_science_certification/)
 
 ## 🚀 Steps to setup development environment
-
-   1. **Install Node v12**
-   
-   [**Link for Node installation (Latest LTS Version)**](https://nodejs.org/en/download/)
-   
-   2. **Clone the repo** 
-   
-   ```bash
-   git clone github.com/fnplus/footsteps-extension.git
-   ```
-
-   3. **Install dependencies**
-
-   ```bash
-   npm install
-   ```
-   Or
-   ```bash
-   yarn install
-   ```
-    
-   4. **To build you code and add the extention to your chrome, run:**
+ 1. **Install Node v12**
  
-   ```bash
-   npm run build
-   ```
-   Or
-   ```bash
-   yarn run build
-   ```
+    [**Link for Node installation (Latest LTS Version)**](https://nodejs.org/en/download/)
  
-   5. **Load the `/build` folder in `chrome://extensions/` on chrome (Load unpacked)**
+ 2. **Clone the repo** 
+ ```bash
+ git clone github.com/fnplus/footsteps-extension.git
+ ```
+
+ 3. **Install dependencies**
+ ```bash
+ npm install
+ ```
+ Or
+ ```bash
+ yarn install
+ ```
+ 
+ 4. **To build you code and add the extention to your chrome, run:**
+ ```bash
+ npm run build
+ ```
+ Or
+ ```bash
+ yarn run build
+ ```
+
+ 5. **Load the `/build` folder in `chrome://extensions/` on chrome (Load unpacked)**
 
 ## 💻 Development guidelines
 
-   1. Put all the code in one of the existing files in `/src`. If you add a new file, make a relavent modification to `build.js`.
+ 1. Put all the code in one of the existing files in `/src`. If you add a new file, make a relavent modification to `build.js`.
 
-   2. If you want to modularize the code, use the `/src/lib` folder. Put all the modules there and `require()` them from `/src`. This will not need any modification to the `build.js` file.
+ 2. If you want to modularize the code, use the `/src/lib` folder. Put all the modules there and `require()` them from `/src`. This will not need any modification to the `build.js` file.
 
-   3. Push all the code to your own branch. Once you are sure its working, merge it with `dev` branch. Let's maintain only the stable and released versions on the `master` branch.
+ 3. Push all the code to your own branch. Once you are sure its working, merge it with `dev` branch. Let's maintain only the stable and released versions on the `master` branch.
 
-   4. Write kick-ass, readable and clean code.
+ 4. Write kick-ass, readable and clean code.
 
 ## :memo: License
 Licensed under the [GPL v3 License](./LICENSE).
