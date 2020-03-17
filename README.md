@@ -34,7 +34,7 @@ Here are few examples of why we came up with footsteps:
    ```bash
    npm install
    ```
-    Or
+   Or
    ```bash
    yarn install
    ```
@@ -44,7 +44,7 @@ Here are few examples of why we came up with footsteps:
    ```bash
    npm run build
    ```
-    Or
+   Or
    ```bash
    yarn run build
    ```
