@@ -17,14 +17,21 @@ Here are few examples of why we came up with footsteps:
 
 [**Reddit thread - "About IBMs Data Science Certification"**](https://www.reddit.com/r/datascience/comments/eleuz9/about_ibms_data_science_certification/)
 
+## ⏪ Prerequisites
+
+* NodeJS (check for it's installation on terminal using npm -v)
+
+
+
 ## 🚀 Steps to setup development environment
  1. **Install Node v12**
  
     [**Link for Node installation (Latest LTS Version)**](https://nodejs.org/en/download/)
- 
+
+
  2. **Clone the repo** 
  ```bash
- git clone github.com/fnplus/footsteps-extension.git
+ git clone github.com/your_username/footsteps-extension.git
  ```
 
  3. **Install dependencies**
@@ -47,6 +54,9 @@ Here are few examples of why we came up with footsteps:
 
  5. **Load the `/build` folder in `chrome://extensions/` on chrome (Load unpacked)**
 
+## 🏆 Contributing
+Please read CONTRIBUTING.md for information on how to contribute to footsteps-extension.
+
 ## 💻 Development guidelines
 
  1. Put all the code in one of the existing files in `/src`. If you add a new file, make a relavent modification to `build.js`.
@@ -57,7 +67,21 @@ Here are few examples of why we came up with footsteps:
 
  4. Write kick-ass, readable and clean code.
 
-## :memo: License
+ 5. Please follow the PR Template to create the PR.
+
+ 6. Please read our [Code of Conduct](https://github.com/fnplus/footsteps-extension/blob/master/CODE_OF_CONDUCT.md)
+
+ ## 👨 Owner
+
+[Abhishek Uniyal](https://github.com/xlogix)
+
+ ## 👬 Mentors
+
+[Abhishek Uniyal](https://github.com/xlogix) 
+
+[Arjun Mahishi](https://github.com/arjunmahishi) 
+
+## 📜 License
 Licensed under the [GPL v3 License](./LICENSE).
 
-## :heart: Thanks
+## ❤️ Thanks
