@@ -1,5 +1,6 @@
 # 👣 Footsteps Extension
-A search 🔎engine for community-made 🧑‍🤝‍🧑learning resources for the 21st-century learner.👨‍💻👩‍💻Learn by following the footsteps (resources) of experts or make your own, giving others the right advice/resources to learn. This chrome extension let's you track your learning footsteps and also inspire others to follow them.                                                           
+A search 🔎engine for community-made 🧑‍🤝‍🧑learning resources for the 21st-century learner.👨‍💻👩‍💻Learn by following the footsteps (resources) of experts or make your own, giving others the right advice/resources to learn. This chrome extension let's you track your learning footsteps and also inspire others to follow them.
+
 This app complements [footsteps-app](https://github.com/fnplus/footsteps-app) . The browser extension for Footsteps App helps you to quickly save your learning footsteps with a click of a button.
 
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Ffnplus%2Fproject-footsteps-chrome.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Ffnplus%2Fproject-footsteps-chrome?ref=badge_shield)
@@ -71,11 +72,11 @@ Please read CONTRIBUTING.md for information on how to contribute to footsteps-ex
 
  6. Please read our [Code of Conduct](https://github.com/fnplus/footsteps-extension/blob/master/CODE_OF_CONDUCT.md)
 
- ## 👨 Owner
+## 👨 Owner
 
 [Abhishek Uniyal](https://github.com/xlogix)
 
- ## 👬 Mentors
+## 👬 Mentors
 
 [Abhishek Uniyal](https://github.com/xlogix) 
 
