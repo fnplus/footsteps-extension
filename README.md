@@ -56,7 +56,7 @@ Here are few examples of why we came up with footsteps:
  5. **Load the `/build` folder in `chrome://extensions/` on chrome (Load unpacked)**
 
 ## 🏆 Contributing
-Please read CONTRIBUTING.md for information on how to contribute to footsteps-extension.
+Please read [CONTRIBUTING.md](https://github.com/fnplus/footsteps-extension/blob/master/CONTRIBUTING.md) for information on how to contribute to footsteps-extension.
 
 ## 💻 Development guidelines
 
