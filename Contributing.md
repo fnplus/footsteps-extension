@@ -2,11 +2,11 @@
 
 # Steps to follow 
 
-### 1. Fork it :fork_and_knife:
+### 1. Fork it 
 
 You can get your own fork/copy of [fooesteps-extension]( https://github.com/fnplus/footsteps-extension) by using the <kbd><b>Fork</b></kbd></a> button.
 
-### 2. Clone it :busts_in_silhouette:
+### 2. Clone it 
 
 You need to clone (download) it to local machine using
 
@@ -25,7 +25,7 @@ cd footsteps-extension
 
 Move to this folder for all other commands.
 
-### 3. Set it up :arrow_up:
+### 3. Set it up 
 
 Run the following commands to see that *your local copy* has a reference to *your forked remote repository* in GitHub :octocat:
 
@@ -53,7 +53,7 @@ upstream  https://github.com/fnplus/footsteps-extension.git (fetch)
 upstream  https://github.com/fnplus/footsteps-extension.git (push)
 ```
 
-### 4. Sync it :recycle:
+### 4. Sync it 
 
 Always keep your local copy of repository updated with the original repository.
 Before making any changes and/or in an appropriate interval, run the following commands *carefully* to update your local repository.
@@ -72,11 +72,11 @@ git reset --hard upstream/master
 git push origin master
 ```
 
-### 5. Ready Steady Go :turtle:
+### 5. Ready Steady Go 
 
 Once you have completed these steps, you are ready to start contributing and creating [pull requests](https://github.com/fnplus/footsteps-extension/pulls).
 
-### 6. Create a new branch :bangbang:
+### 6. Create a new branch 
 
 Whenever you are going to make contribution. Please create separate branch using command and keep your `master` branch clean (i.e. synced with remote branch).
 
@@ -118,4 +118,4 @@ git push -u origin Branch_Name
 Finally, go to your repository in browser and click on `compare and pull requests`.
 Then add a title and description to your pull request that explains your precious effort. 
 
-:tada: :confetti_ball: :smiley: _**Happy Contributing**_ :smiley: :confetti_ball: :tada:
+**Happy Contributing**
