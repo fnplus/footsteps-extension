@@ -1,5 +1,5 @@
 var config = {
-  apiKey: 'AIzaSyCbBsA6NBf-Ko1iIQZLcIR2cpspWslwx5I',
+  apiKey: "AIzaSyCbBsA6NBf-Ko1iIQZLcIR2cpspWslwx5I",
   authDomain: "fnplus-rle-mvp.firebaseapp.com",
   projectId: "fnplus-rle-mvp",
   appId: "1:1064007003546:web:187ca42dbcf8a58d"
@@ -23,7 +23,7 @@ firebase.initializeApp(config);
 function initApp() {
   // Listen for auth state changes.
   firebase.auth().onAuthStateChanged(function (user) {
-    console.log('User state change detected from the Background script of the Chrome Extension:', user);
+    console.log("User state change detected from the Background script of the Chrome Extension:", user);
     chrome.browserAction.setPopup({popup: "popup.html"});
   });
 }
