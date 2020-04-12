@@ -8,6 +8,19 @@ var config = {
 firebase.initializeApp(config);
 
 /**
+ * Starts the sign-in process.
+ */
+ function startSignIn() {
+   document.getElementById("sign-in-button").disabled = true;
+   if (firebase.auth().currentUser) {
+     firebase.auth().signOut();
+   } else {
+     startAuth(true);
+   }
+ }
+
+
+/**
  * initApp handles setting up the Firebase context and registering
  * callbacks for the auth status.
  *
@@ -93,17 +106,6 @@ function startAuth(interactive) {
   });
 }
 
-/**
- * Starts the sign-in process.
- */
-function startSignIn() {
-  document.getElementById("sign-in-button").disabled = true;
-  if (firebase.auth().currentUser) {
-    firebase.auth().signOut();
-  } else {
-    startAuth(true);
-  }
-}
 
 window.onload = function() {
   initApp();

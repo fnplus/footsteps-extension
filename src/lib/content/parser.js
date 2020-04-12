@@ -3,7 +3,7 @@ class Parser {
         return {
             title: this.getTitle(),
             content: this.getLink()
-        }
+        };
     }
     getTitle() {}
     getLink() {}

@@ -1,10 +1,10 @@
 # Contributing guidelines
 
-To start contributing to [footsteps-extension](https://github.com/fnplus/footsteps-extension) project, please first discuss the change you wish to make via creating an issue 
+To start contributing to [footsteps-extension](https://github.com/fnplus/footsteps-extension) project, please first discuss the change you wish to make via creating an issue
 in the issue section or any other method with the owners of this repository before making a change.<br />
 We have a [code of conduct]( https://github.com/fnplus/footsteps-extension/blob/master/CODE_OF_CONDUCT.md), please follow it in all your interactions with the project.<br />
 
-# Contributing to footsteps-extension
+## Contributing to footsteps-extension
 
 :+1::tada: First off, thanks for taking the time to contribute! :tada::+1:
 
@@ -15,7 +15,7 @@ We love your input! We want to make contributing to this project as easy and tra
 - [Submitting a fix]( https://github.com/fnplus/footsteps-extension/blob/master/.github/ISSUE_TEMPLATE/pull_request_template.md)
 - [Proposing new features](https://github.com/fnplus/footsteps-extension/blob/master/.github/ISSUE_TEMPLATE/feature_request_template.md)
 
-# Steps to follow :scroll:
+## Steps to follow :scroll:
 
 ### 1. Fork it :fork_and_knife:
 
@@ -133,9 +133,9 @@ git push -u origin Branch_Name
 ```
 
 Finally, go to your repository in browser and click on `compare and pull requests`.Use our [pull request template format](https://github.com/fnplus/footsteps-extension/blob/master/.github/ISSUE_TEMPLATE/pull_request_template.md). <br />
-Then add a title and description to your pull request that explains your precious effort. 
+Then add a title and description to your pull request that explains your precious effort.
 
 Sit and relax till we review your PR, you've made your contribution to our project.
 
-:tada: :confetti_ball: :smiley: _**Happy Contributing**_ :smiley: :confetti_ball: :tada:
 
+:tada: :confetti_ball: :smiley: _**Happy Contributing**_ :smiley: :confetti_ball: :tada:
