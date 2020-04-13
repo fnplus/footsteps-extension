@@ -4,11 +4,11 @@ window.onload = () => {
   var metaData = "";
   for (let i = 0; i < metas.length; i++) {
     if (
-      metas[i].getAttribute("name") === "description" ||
-      metas[i].getAttribute("name") === "summary"
+      metas[parseInt(i)].getAttribute("name") === "description" ||
+      metas[parseInt(i)].getAttribute("name") === "summary"
     ) {
 
-      metaData += metas[i].getAttribute("content");
+      metaData += metas[parseInt(i)].getAttribute("content");
     }
 
 

@@ -29,6 +29,17 @@ function onWindowLoad() {
   );
 }
 
+const showPathSelector = (selectorID) => {
+  //console.log(selectorID);
+  PATH_SELECTOR_IDS.forEach((id) => {
+    if (selectorID === id) {
+      document.getElementById(id).style.display = "block";
+    } else {
+      document.getElementById(id).style.display = "none";
+    }
+  });
+};
+
 const radioHandler = (e) => {
   switch (e.target.id) {
     case EXISTING_PATH_RADIO_ID:
@@ -43,16 +54,7 @@ const radioHandler = (e) => {
   }
 };
 
-const showPathSelector = (selectorID) => {
-  //console.log(selectorID);
-  PATH_SELECTOR_IDS.forEach((id) => {
-    if (selectorID === id) {
-      document.getElementById(id).style.display = "block";
-    } else {
-      document.getElementById(id).style.display = "none";
-    }
-  });
-};
+
 
 document
   .getElementById(EXISTING_PATH_RADIO_ID)

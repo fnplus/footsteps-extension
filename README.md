@@ -23,17 +23,17 @@ Here are few examples of why we came up with footsteps:
 * NodeJS (check for it's installation on terminal using npm -v)
 
 ## 🚀 Steps to setup development environment
- 1. **Install Node v12**
+ 1. ##### Install Node v12
 
     [**Link for Node installation (Latest LTS Version)**](https://nodejs.org/en/download/)
 
 
- 2. **Clone the repo**
+ 2. ##### Clone the repo
  ```bash
  git clone github.com/your_username/footsteps-extension.git
  ```
 
- 3. **Install dependencies**
+ 3. ##### Install dependencies
  ```bash
  npm install
  ```
@@ -42,23 +42,23 @@ Here are few examples of why we came up with footsteps:
  yarn install
  ```
 
- 4. **To build you code and add the extension to your chrome, run:**
- ```bash
+ 4. ##### To build you code and add the extension to your chrome, run:
+```bash
  npm run build
  ```
- Or
- ```bash
+    Or
+```bash
  yarn run build
  ```
 
- 5. **Load the `/build` folder in `chrome://extensions/` on chrome (Load unpacked)**
+ 5. ##### Load the `/build` folder in `chrome://extensions/` on chrome (Load unpacked)
 
 ## 🏆 Contributing
 Please read [CONTRIBUTING.md](https://github.com/fnplus/footsteps-extension/blob/master/CONTRIBUTING.md) for information on how to contribute to footsteps-extension.
 
 ## 💻 Development guidelines
 
-1. Put all the code in one of the existing files in `/src`. If you add a new file, make a relavent modification to `build.js`.
+1. Put all the code in one of the existing files in `/src`. If you add a new file, make a relevent modification to `build.js`.
 
 2. If you want to modularize the code, use the `/src/lib` folder. Put all the modules there and `require()` them from `/src`. This will not need any modification to the `build.js` file.
 
