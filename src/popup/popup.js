@@ -5,10 +5,10 @@ const NEW_PATH_INPUT_ID = "new-path-input";
 const PATH_SELECTOR_IDS = [EXISTING_PATH_SELECTOR_ID, NEW_PATH_INPUT_ID];
 
 chrome.runtime.onMessage.addListener(function(request) {
-  if (request.action == "getTitle") {
+  if (request.action === "getTitle") {
     // This is where you get the JSON
     var content = request.source;
-    console.log(content);
+    //console.log(content);
   }
 });
 
@@ -29,7 +29,18 @@ function onWindowLoad() {
   );
 }
 
-const radioHandler = e => {
+const showPathSelector = (selectorID) => {
+  //console.log(selectorID);
+  PATH_SELECTOR_IDS.forEach((id) => {
+    if (selectorID === id) {
+      document.getElementById(id).style.display = "block";
+    } else {
+      document.getElementById(id).style.display = "none";
+    }
+  });
+};
+
+const radioHandler = (e) => {
   switch (e.target.id) {
     case EXISTING_PATH_RADIO_ID:
       showPathSelector(EXISTING_PATH_SELECTOR_ID);
@@ -43,16 +54,7 @@ const radioHandler = e => {
   }
 };
 
-const showPathSelector = selectorID => {
-  console.log(selectorID);
-  PATH_SELECTOR_IDS.forEach(id => {
-    if (selectorID == id) {
-      document.getElementById(id).style.display = "block";
-    } else {
-      document.getElementById(id).style.display = "none";
-    }
-  });
-};
+
 
 document
   .getElementById(EXISTING_PATH_RADIO_ID)
