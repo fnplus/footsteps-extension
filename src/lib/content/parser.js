@@ -1,9 +1,10 @@
 class Parser {
     parse() {
-        return {
-            title: this.getTitle(),
-            content: this.getLink()
-        }
+        var a = {
+          title: this.getTitle(),
+          content: this.getLink()
+        };
+        return a;
     }
     getTitle() {}
     getLink() {}

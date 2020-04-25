@@ -1,5 +1,7 @@
 # 👣 Footsteps Extension
 
+This app complements [footsteps-app](https://github.com/fnplus/footsteps-app) . The browser extension for Footsteps App helps you to quickly save your learning footsteps with a click of a button.
+
 A search 🔎engine for community-made 🧑‍🤝‍🧑learning resources for the 21st-century learner. 👨‍💻👩‍💻Learn by following the footsteps (resources) of experts or make your own, giving others the right advice/resources to learn. This chrome extension let's you track your learning footsteps and also inspire others to follow them. 
 This app complements [footsteps-app](https://github.com/fnplus/footsteps-app) . The browser extension for Footsteps App helps you to quickly save your learning footsteps with a click of a button. 
 
@@ -19,8 +21,11 @@ Here are few examples of why we came up with footsteps:
 
 [**Reddit thread - "About IBMs Data Science Certification"**](https://www.reddit.com/r/datascience/comments/eleuz9/about_ibms_data_science_certification/)
 
-## 🚀 Steps to setup development environment
+## ⏪ Prerequisites
 
+* NodeJS (check for it's installation on terminal using npm -v)
+
+## 🚀 Steps to setup development environment
    1. **Install Node v12**
    [**Link for Node installation (Latest LTS Version)**](https://nodejs.org/en/download/)
 
@@ -64,10 +69,24 @@ Here are few examples of why we came up with footsteps:
 
    3. Push all the code to your own branch. Once you are sure its working, merge it with `dev` branch. Let's maintain only the stable and released versions on the `master` branch. 
 
-   4. Write kick-ass, readable and clean code. 
+   4. Write kick-ass, readable and clean code.
 
-## :memo: License
+   5.  ### Load the `/build` folder in `chrome://extensions/` on chrome (Load unpacked)
 
-Licensed under the [GPL v3 License](. /LICENSE). 
+## 🏆 Contributing
+Please read [CONTRIBUTING.md](https://github.com/fnplus/footsteps-extension/blob/master/CONTRIBUTING.md) for information on how to contribute to footsteps-extension.
 
-## :heart: Thanks
+## 👨 Owner
+
+[Abhishek Uniyal](https://github.com/xlogix)
+
+## 👬 Mentors
+
+[Abhishek Uniyal](https://github.com/xlogix)
+
+[Arjun Mahishi](https://github.com/arjunmahishi)
+
+## 📜 License
+Licensed under the [GPL v3 License](./LICENSE).
+
+## ❤️ Thanks
