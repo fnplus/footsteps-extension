@@ -5,7 +5,7 @@ This app complements [footsteps-app](https://github.com/fnplus/footsteps-app) . 
 A search 🔎engine for community-made 🧑‍🤝‍🧑learning resources for the 21st-century learner. 👨‍💻👩‍💻Learn by following the footsteps (resources) of experts or make your own, giving others the right advice/resources to learn. This chrome extension let's you track your learning footsteps and also inspire others to follow them. 
 This app complements [footsteps-app](https://github.com/fnplus/footsteps-app) . The browser extension for Footsteps App helps you to quickly save your learning footsteps with a click of a button. 
 
-[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub. com%2Ffnplus%2Fproject-footsteps-chrome. svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub. com%2Ffnplus%2Fproject-footsteps-chrome?ref=badge_shield)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Ffnplus%2Fproject-footsteps-chrome.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Ffnplus%2Fproject-footsteps-chrome?ref=badge_shield)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/d4e157de374b4db4a5277592bd6f4d7e)](https://www.codacy.com/manual/fnplus/footsteps-extension?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=fnplus/footsteps-extension&amp;utm_campaign=Badge_Grade)
 [![CodeFactor](https://www.codefactor.io/repository/github/fnplus/footsteps-extension/badge)](https://www.codefactor.io/repository/github/fnplus/footsteps-extension)
 
